@@ -1,0 +1,21 @@
+package files;
+
+public class payload {
+
+    public static String AddPlace() {
+
+        return "{" +
+                "\"location\":{" +
+                "\"lat\" : -38.383494," +
+                "\"lng\" : 33.427362" +
+                "}," +
+                "\"accuracy\":50," +
+                "\"name\":\"freddy house\"," +
+                "\"phone_number\":\"074 893 3937\"," +
+                "\"address\" : \"29, side layout, cohen 09\"," +
+                "\"types\": [\"shoe park\",\"shop\"]," +
+                "\"website\" : \"http://google.com\"," +
+                "\"language\" : \"French-IN\"" +
+                "}";
+    }
+}
